@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Blog</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my blog !</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="myblog.html">My Blog</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Survey form</h2>
+        <form>
+            <label>Your background:</label>
+            <input type="radio" id="student" name="background" value="Student">
+            <label for="student">Student</label>
+            <input type="radio" id="software-developer" name="background" value="Software Developer">
+            <label for="software-developer">Software Developer</label>
+            <input type="radio" id="other" name="background" value="Other">
+            <label for="other">Other</label><br>
+            <label>How do you feel about our my blog: </label>
+            <select name="feel" id="difficulty">
+                <option value="">--Please choose your answer--</option>
+                <option value="Happy">Happy</option>
+                <option value="Surprise">Surprise</option>
+                <option value="Awe">Awe</option>
+                <option value="Charmed">Charmed</option>
+            </select><br>
+            <label>The topics that you want to share:</label>
+            <input type="checkbox" id="git" name="topic" value="Git">
+            <label for="git">Git</label>
+            <input type="checkbox" id="css" name="topic" value="CSS">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="html" name="topic" value="HTML">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="javascript" name="topic" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <label for="feedback">Your feedback:</label><br>
+            <textarea id="feedback" rows="10" cols="35"></textarea><br>
+            <label for="blog-id">Your blog id:</label>
+            <input type="text" id="blog-id" name="blog-id" value=""><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>© 2022 Thoughtworks</p>
+    </footer>
+
+</html>
